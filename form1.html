@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    
+    <link rel="stylesheet" href="css/form1.css">
+    
+
+</head>
+<body >
+    <h1 style="text-align:center;">Enter Details</h1>
+    <div class="container">
+        <form action="action_page.php">
+            <h3>Customer Information :</h3>
+            <div class="row">
+            <div class="col-25">
+              <label for="fname">First Name</label>
+            </div>
+            <div class="col-75">
+              <input type="text" id="fname" name="firstname" placeholder="Your name..">
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-25">
+              <label for="lname">Last Name</label>
+            </div>
+            <div class="col-75">
+              <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+            </div>
+          </div>
+          
+          <h3>Contact Information :</h3>
+
+          <div class="row">
+            <div class="col-25">
+              <label for="phno">Phone number</label>
+            </div>
+            <div class="col-75">
+              <input type="tel" id="phno" name="phonenumber" placeholder="Your phone number..">
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-25">
+              <label for="emailid">E-mail Id</label>
+            </div>
+            <div class="col-75">
+              <input type="email" id="emailid" name="E-mailId" placeholder="Your E-mail id..">
+            </div>
+          </div>
+
+          <h3>Event Information :</h3>
+
+          <div class="row">
+            <div class="col-25">
+              <label for="category">Event Type</label>
+            </div>
+            <div class="col-75">
+              <select id="category" name="category">
+                <option value="marriage">Marriage</option>
+                <option value="birthday">Birthday Party</option>
+                <option value="wedding_anniversary">Wedding Anniversary</option>
+                <option value="private_party">Private party</option>
+                <option value="corporate_event">Corporate Event</option>
+                <option value="award_ceremonies">Award Ceremon</option>
+                <option value="family_reunion">Family Reunion</option>
+                <option value="farewell_party">Farewell party</option>
+                <option value="school_event">School Events</option>
+                <option value="baby_shower">Baby shower</option>
+                <option value="Buisness_event">Buisness event</option>
+                <option value="other">Other</option>
+              </select>
+            </div>
+          </div>
+          
+          <div class="row">
+            <div class="col-25">
+              <label for="subject">Event Description</label>
+            </div>
+            <div class="col-75">
+              <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+            </div>
+          </div>
+          
+          <div class="row">
+            <div class="col-25">
+              <label for="minimum_capacity">Minimum Capacity</label>
+            </div>
+            <div class="col-75">
+              <input type="number" id="mincap" name="mincap" placeholder="minimum number of people...">
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-25">
+              <label for="maximum_capacity">Maximum Capacity</label>
+            </div>
+            <div class="col-75">
+              <input type="number" id="maxcap" name="maxcap" placeholder="maxmum number of people...">
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-25">
+              <label for="start_date">Date of Event</label>
+            </div>
+            <div class="col-75">
+              <input type="date" id="" name="" placeholder="maxmum number of people...">
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-25">
+              <label for="ending_date">Ending Date</label>
+            </div>
+            <div class="col-75">
+              <input type="date" id="" name="" placeholder="maxmum number of people...">
+            </div>
+          </div>
+
+
+          <div class="row">
+            <input type="submit" value="Submit">
+          </div>
+        </form>
+      </div>
+</body>
+</html>
